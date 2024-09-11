@@ -17,7 +17,7 @@ public class LikesViewModel extends ViewModel {
             if (qtdLikes + 1 <= 3) {
                 imgLike.setValue(R.drawable.baseline_thumb_up_alt_24);
             } else if (qtdLikes + 1 > 3 && qtdLikes + 1 <= 9) {
-                imgLike.setValue(R.drawable.baseline_sentiment_very_satisfied_24);
+                imgLike.setValue(R.drawable.heart_shaped_crystals_svgrepo_com);
             } else if (qtdLikes + 1 > 9) {
                 imgLike.setValue(R.drawable.baseline_local_fire_department_24);
             }
